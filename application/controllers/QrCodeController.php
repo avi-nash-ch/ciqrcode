@@ -13,7 +13,7 @@ class QrCodeController extends CI_Controller
         $this->load->library('ciqrcode');
 
         // QR code data
-        $data = 'congrulation scanning successfully done ';
+        $data = 'congrulation scanning was successfully done ';
 
         // QR code filename
         $filename = 'loremipsum.png';
